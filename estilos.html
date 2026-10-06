@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- CSS: Hoja de estilos cascada -->
+  <!-- selector : {} -->
+   <!-- ¿Que es un selector ? = a quien le afecta los atribuos-->
+    <!-- etiqueta {}, unaclase {}, # identificador{}, * {} -->
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+
+    }
+    /* Solo se puede utilizar una vez */
+    #tiutlo{
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: blue;
+    }
+    /* Le afecya a todas las etiquetas */
+    p{
+      color: red; 
+      text-align: center ; 
+      font-style: italic;
+      margin: 2em; /* 1en = 16px, 1M */
+      margin-bottom: 4em;
+    }
+    /* Clas que puede heredarse muchas veces */
+    .importante {
+      background-color: bisque;
+      border: 1px solid black; /* dotted, solid, double, dashed */
+      padding: 1em;/* Espacio interno  */
+    }
+
+    .caja{
+      background-color: aquamarine;
+      width: 100px;
+      height: 100px;
+
+      text-align: center;
+      display: inline-block;
+      padding-top: 40px;
+    }
+    .fondoimage{
+      background-image: url('images/images.jpg') ;
+      background-size: auto;
+
+    }
+  
+  </style>
+<!-- Atributos: valor, atributo: valor -->
+
+  <h1 id="tiutlo">Fundamenos css</h1>
+
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis iste ab nesciunt nostrum impedit, incidunt eius, ratione consequuntur cum id magni? Cum officia ex ullam praesentium officiis esse vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sed voluptate vitae ad quam optio natus laborum quaerat tempore provident nulla odit exercitationem incidunt quisquam expedita, cumque pariatur laboriosam praesentium!
+    Eligendi, dicta laudantium ullam autem quia a dolorum nostrum alias quam corporis, saepe, dolores placeat? Animi, totam accusantium reiciendis aperiam deleniti repellat tenetur perspiciatis voluptatem magni fugiat sed temporibus? Fugiat.
+  </p>
+
+  <p class="fondoimage">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore officiis maiores incidunt, non odit autem dolores quam reprehenderit, rem eius magnam fugit molestiae dolor. Adipisci aspernatur quos commodi recusandae vero.
+    Voluptatum nemo aliquam earum, quidem tempora iure nisi est cumque repudiandae ut ducimus possimus ea aperiam numquam sunt. Enim assumenda culpa laudantium inventore cum incidunt vel eos possimus molestiae accusantium!
+    Atque dicta consequuntur sed voluptas assumenda. Error iste dolor dolores ipsa corrupti eum porro quaerat ipsam aspernatur quae accusantium adipisci, laborum iure, repudiandae ea. Ea adipisci sit maiores nostrum odit?  
+  </p>
+
+  <p class="importante">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore officiis maiores incidunt, non odit autem dolores quam reprehenderit, rem eius magnam fugit molestiae dolor. Adipisci aspernatur quos commodi recusandae vero.
+    Voluptatum nemo aliquam earum, quidem tempora iure nisi est cumque repudiandae ut ducimus possimus ea aperiam numquam sunt. Enim assumenda culpa laudantium inventore cum incidunt vel eos possimus molestiae accusantium!
+    Atque dicta consequuntur sed voluptas assumenda. Error iste dolor dolores ipsa corrupti eum porro quaerat ipsam aspernatur quae accusantium adipisci, laborum iure, repudiandae ea. Ea adipisci sit maiores nostrum odit?  
+  </p>
+
+  <hr>
+  <br>
+
+  <div class="caja">
+    Caja 1
+  </div>
+
+  <div class="caja">
+    Caja 2
+  </div>
+</body>
+</html>
